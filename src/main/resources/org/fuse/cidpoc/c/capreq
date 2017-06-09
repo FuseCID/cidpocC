@@ -1,0 +1,2 @@
+provides: C0
+requires: A(1-4)
