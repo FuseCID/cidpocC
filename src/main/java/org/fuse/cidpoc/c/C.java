@@ -8,10 +8,20 @@ import org.fuse.cidpoc.a.A;
 
 public class C extends Item {
 
-    Item[] deps = new Item[] { new A() };
+    @Override
+    public Capability getCapability() {
+        return new Capability("C", 3);
+    }
+
+    @Override
+    public List<Requirement> getRequirements() {
+        Requirement[] reqs = new Requirement[] { new Requirement("A", 3, 5) };
+        return Arrays.asList(reqs);
+    }
 
     @Override
     public List<Item> getDependencies() {
+        Item[] deps = new Item[] { new A() };
         return Arrays.asList(deps);
     }
 }
