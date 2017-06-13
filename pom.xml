@@ -18,7 +18,7 @@
   </scm>
     
     <properties>
-        <version.cidpoc.a>1.0.0</version.cidpoc.a>
+        <version.cidpoc.a>1.0.1-SNAPSHOT</version.cidpoc.a>
     </properties>
 
     <dependencies>
