@@ -8,13 +8,14 @@
     </parent>
 
     <artifactId>projC</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <scm>
         <connection>scm:git:https://github.com/tdiesler/cidpocC</connection>
         <developerConnection>scm:git:https://github.com/tdiesler/cidpocC.git</developerConnection>
         <url>http://github.com/tdiesler/cidpocC</url>
-    </scm>
+      <tag>1.0.0</tag>
+  </scm>
     
     <properties>
         <version.cidpoc.a>1.0.0</version.cidpoc.a>
