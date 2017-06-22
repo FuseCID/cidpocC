@@ -15,7 +15,7 @@ public class C extends Item {
 
     @Override
     public List<Requirement> getRequirements() {
-        Requirement[] reqs = new Requirement[] { new Requirement("A", 3, 5) };
+        Requirement[] reqs = new Requirement[] { new Requirement("A", 1, 4) };
         return Arrays.asList(reqs);
     }
 
